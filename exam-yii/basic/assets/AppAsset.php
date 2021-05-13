@@ -26,6 +26,7 @@ class AppAsset extends AssetBundle
         "vendors/nice-select/nice-select.css",
         "vendors/owl-carousel/owl.theme.default.min.css",
         "vendors/owl-carousel/owl.carousel.min.css",
+        "css/bootstrap.css",
         "css/style.css"
     ];
     public $js = [
@@ -36,6 +37,7 @@ class AppAsset extends AssetBundle
         "vendors/nice-select/jquery.nice-select.min.js",
         "js/jquery.ajaxchimp.min.js",
         "js/mail-script.js",
+        "bootstrap.js",
         "js/main.js"
 
         
@@ -44,4 +46,12 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
+}
+namespace yii\bootstrap;
+use yii\web\AssetBundle;
+class BootstrapPluginAsset extends AssetBundle {
+     public $sourcePath = '@bower/bootstrap/dist';
+     public $js = [ 'js/bootstrap.js', ];
+     public $depends = [ 'yii\web\JqueryAsset',
+     'yii\bootstrap\BootstrapAsset', ];
 }
