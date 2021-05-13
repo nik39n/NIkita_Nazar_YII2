@@ -1,7 +1,4 @@
-
-<div class="stconteiner">
-<?= $this->render("_side");?>
-<div class="stcontent">
+<h1>Группa:</h1>
 <table class="table table-dark table-striped">
 <tr>
 <td>Id</td>
@@ -9,8 +6,8 @@
 <td> Фамилия </td>
 <td> Группа </td>
 </tr>
-<?php if (!empty($student)): ?>
-    <?php foreach($student as $items): ?>
+<?php if (!empty($studentone)): ?>
+    <?php foreach($studentone as $items): ?>
 <tr>
 <td><?=$items["id"]?></td>
 <td><?=$items["fname"]?></td>
@@ -20,5 +17,3 @@
         <?php endforeach; ?>
 <?php endif; ?>
 </table>
-</div>
-</div>
