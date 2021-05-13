@@ -1,0 +1,12 @@
+.wrap_fot{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+.fot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(236, 236, 236);
+}

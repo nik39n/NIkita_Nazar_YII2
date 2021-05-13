@@ -1,0 +1,12 @@
+.stconteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+.stcontent{
+    width: 70vw;
+    height: 80vh;
+    padding: 5px;
+}

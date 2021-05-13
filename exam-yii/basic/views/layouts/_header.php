@@ -1,1 +1,0 @@
-<?=  app\components\MenuWidget::widget()?>
