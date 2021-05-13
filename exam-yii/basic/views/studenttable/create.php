@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Menutable */
+/* @var $model app\models\Studenttable */
 
-$this->title = 'Create Menutable';
-$this->params['breadcrumbs'][] = ['label' => 'Menutables', 'url' => ['index']];
+$this->title = 'Create Studenttable';
+$this->params['breadcrumbs'][] = ['label' => 'Studenttables', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="menutable-create">
+<div class="studenttable-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

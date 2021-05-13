@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\MenutableSearch */
+/* @var $model app\models\FootertableSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="menutable-search">
+<div class="footertable-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -17,15 +17,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'name') ?>
+    <?= $form->field($model, 'copyright') ?>
 
-    <?= $form->field($model, 'action') ?>
+    <?= $form->field($model, 'authorone') ?>
 
-    <?= $form->field($model, 'content') ?>
-
-    <?= $form->field($model, 'keywords') ?>
-
-    <?php // echo $form->field($model, 'description') ?>
+    <?= $form->field($model, 'authortwo') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

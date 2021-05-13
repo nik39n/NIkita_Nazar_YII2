@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\MenuTable */
+/* @var $model app\models\Menutable */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="menu-table-form">
+<div class="menutable-form">
 
     <?php $form = ActiveForm::begin(); ?>
 

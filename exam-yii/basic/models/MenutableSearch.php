@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\MenuTable;
+use app\models\Menutable;
 
 /**
- * MenuSearch represents the model behind the search form of `app\models\MenuTable`.
+ * MenutableSearch represents the model behind the search form of `app\models\Menutable`.
  */
-class MenuSearch extends MenuTable
+class MenutableSearch extends Menutable
 {
     /**
      * {@inheritdoc}
@@ -40,7 +40,7 @@ class MenuSearch extends MenuTable
      */
     public function search($params)
     {
-        $query = MenuTable::find();
+        $query = Menutable::find();
 
         // add conditions that should always apply here
 

@@ -14,7 +14,7 @@ use Yii;
  * @property string|null $keywords
  * @property string|null $description
  */
-class MenuTable extends \yii\db\ActiveRecord
+class Menutable extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}

@@ -4,18 +4,18 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\MenutableSearch */
+/* @var $searchModel app\models\FootertableSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Menutables';
+$this->title = 'Footertables';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="menutable-index">
+<div class="footertable-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Menutable', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Footertable', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -27,11 +27,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'name',
-            'action',
-            'content',
-            'keywords',
-            //'description',
+            'copyright',
+            'authorone',
+            'authortwo',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
