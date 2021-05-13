@@ -4,9 +4,9 @@ namespace app\controllers;
 
 class StudentController extends \yii\web\Controller
 {
-    public function actionStudents()
+    public function actionStudent()
     {
-        return $this->render('students');
+        return $this->render('student');
     }
 
 }
