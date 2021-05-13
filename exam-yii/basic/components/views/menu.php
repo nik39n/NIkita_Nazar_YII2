@@ -7,7 +7,6 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
       <?php if (!empty($menu)): ?>
-    <ul>
     <?php foreach($menu as $items): ?>
       <?php if ($items['name'] === 'Главная'): ?>
         <li class="nav-item">
