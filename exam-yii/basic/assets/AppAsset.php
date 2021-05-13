@@ -27,6 +27,7 @@ class AppAsset extends AssetBundle
         "vendors/owl-carousel/owl.theme.default.min.css",
         "vendors/owl-carousel/owl.carousel.min.css",
         "css/bootstrap.css",
+        "css/footer.css",
         "css/style.css"
     ];
     public $js = [
