@@ -11,14 +11,12 @@ use yii\base\Widget;
 class MenuWidget extends Widget{
     
     public function run(){
-/*         $html = \Yii::$app->cache->get('Menu');
+        $html = \Yii::$app->cache->get('Menu');
         if(!$html){
             $menu = \app\models\Menu::find()->select('action, name')->all();
             $html = $this->render('menu', compact('menu'));
             \Yii::$app->cache->set('Menu', $html, 60);
-        } */
-        $menu = \app\models\Menu::find()->select('action, name')->all();
-        $html = $this->render('menu', compact('menu'));
+        }
         return $html;
     }
     
