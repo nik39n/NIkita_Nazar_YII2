@@ -1,0 +1,15 @@
+<p>Products:</p>
+<app-tovar
+*ngFor = "let item of product"
+[prod]= 'item'
+(onRemove)="removeProduct($event)">
+></app-tovar>
+<h2>Добавить товар</h2>
+<div class="product">
+<input type="text" (keyup)=onInput1(input1.value) #input1 [value]="title" placeholder="title">
+<input type="text" (keyup)=onInput2(input2.value) #input2 [value]="description" placeholder="description">
+<input type="text" (keyup)=onInput3(input3.value) #input3 [value]="price" placeholder="price">
+<input type="text" (keyup)=onInput4(input4.value) #input4 [value]="id" placeholder="id">
+<button (click)=push()>Add</button>
+</div>
+

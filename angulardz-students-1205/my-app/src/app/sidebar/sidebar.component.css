@@ -1,0 +1,10 @@
+.side{
+    width: 40vw;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

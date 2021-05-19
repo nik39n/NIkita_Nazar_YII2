@@ -1,0 +1,14 @@
+.product{
+    width: 60vw;
+    height: 30vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: rgb(25, 75, 58);
+}
+input,button{
+    margin: 5px;
+}
