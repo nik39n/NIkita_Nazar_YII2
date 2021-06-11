@@ -56,7 +56,8 @@ export class TovarlistComponent implements OnInit {
   }
   push() {
     this.product.push({
-      title: this.title, description: this.description,
+      title: this.title,
+      description: this.description,
       price: this.price,
       id: this.id
     })
